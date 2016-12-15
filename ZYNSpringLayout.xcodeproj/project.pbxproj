@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5362B96FE57AF88507753C0B /* libPods-ZYNSpringLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594C4EFE6869F60699D6FE0C /* libPods-ZYNSpringLayout.a */; };
+		F435D8C91D30C6F800383017 /* ZYNCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F435D8C81D30C6F800383017 /* ZYNCollectionController.m */; };
+		F435D8CD1D30C97C00383017 /* ZYNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F435D8CB1D30C97C00383017 /* ZYNCollectionViewCell.m */; };
+		F435D8CE1D30C97C00383017 /* ZYNCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F435D8CC1D30C97C00383017 /* ZYNCollectionViewCell.xib */; };
+		F4B39B0B1D3348AD00E0C9F8 /* ZYNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B39B0A1D3348AD00E0C9F8 /* ZYNModel.m */; };
+		F4E3B0691D30A45300D2D377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E3B0681D30A45300D2D377 /* main.m */; };
+		F4E3B06C1D30A45300D2D377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E3B06B1D30A45300D2D377 /* AppDelegate.m */; };
+		F4E3B06E1D30A45300D2D377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E3B06D1D30A45300D2D377 /* Assets.xcassets */; };
+		F4E3B0711D30A45300D2D377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E3B06F1D30A45300D2D377 /* LaunchScreen.storyboard */; };
+		F4E3B07C1D30A45300D2D377 /* ZYNSpringLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E3B07B1D30A45300D2D377 /* ZYNSpringLayoutTests.m */; };
+		F4E3B0871D30A45300D2D377 /* ZYNSpringLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E3B0861D30A45300D2D377 /* ZYNSpringLayoutUITests.m */; };
+		F4E3B0971D30A4A000D2D377 /* ZYNSpringLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E3B0961D30A4A000D2D377 /* ZYNSpringLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E3B0781D30A45300D2D377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E3B05C1D30A45300D2D377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E3B0631D30A45300D2D377;
+			remoteInfo = ZYNSpringLayout;
+		};
+		F4E3B0831D30A45300D2D377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E3B05C1D30A45300D2D377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E3B0631D30A45300D2D377;
+			remoteInfo = ZYNSpringLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594C4EFE6869F60699D6FE0C /* libPods-ZYNSpringLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYNSpringLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4469243F8496CFD87ED04E1 /* Pods-ZYNSpringLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNSpringLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNSpringLayout/Pods-ZYNSpringLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA4889D9FAEB3318AB7110D /* Pods-ZYNSpringLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNSpringLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNSpringLayout/Pods-ZYNSpringLayout.release.xcconfig"; sourceTree = "<group>"; };
+		F435D8C71D30C6F800383017 /* ZYNCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNCollectionController.h; sourceTree = "<group>"; };
+		F435D8C81D30C6F800383017 /* ZYNCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNCollectionController.m; sourceTree = "<group>"; };
+		F435D8CA1D30C97C00383017 /* ZYNCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNCollectionViewCell.h; sourceTree = "<group>"; };
+		F435D8CB1D30C97C00383017 /* ZYNCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNCollectionViewCell.m; sourceTree = "<group>"; };
+		F435D8CC1D30C97C00383017 /* ZYNCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYNCollectionViewCell.xib; sourceTree = "<group>"; };
+		F4B39B091D3348AD00E0C9F8 /* ZYNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNModel.h; sourceTree = "<group>"; };
+		F4B39B0A1D3348AD00E0C9F8 /* ZYNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNModel.m; sourceTree = "<group>"; };
+		F4E3B0641D30A45300D2D377 /* ZYNSpringLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYNSpringLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3B0681D30A45300D2D377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4E3B06A1D30A45300D2D377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4E3B06B1D30A45300D2D377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4E3B06D1D30A45300D2D377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E3B0701D30A45300D2D377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E3B0721D30A45300D2D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3B0771D30A45300D2D377 /* ZYNSpringLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNSpringLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3B07B1D30A45300D2D377 /* ZYNSpringLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNSpringLayoutTests.m; sourceTree = "<group>"; };
+		F4E3B07D1D30A45300D2D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3B0821D30A45300D2D377 /* ZYNSpringLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNSpringLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E3B0861D30A45300D2D377 /* ZYNSpringLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNSpringLayoutUITests.m; sourceTree = "<group>"; };
+		F4E3B0881D30A45300D2D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E3B0951D30A4A000D2D377 /* ZYNSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNSpringLayout.h; sourceTree = "<group>"; };
+		F4E3B0961D30A4A000D2D377 /* ZYNSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNSpringLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E3B0611D30A45300D2D377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5362B96FE57AF88507753C0B /* libPods-ZYNSpringLayout.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B0741D30A45300D2D377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B07F1D30A45300D2D377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1420910B0F2F2A76CC0F5E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594C4EFE6869F60699D6FE0C /* libPods-ZYNSpringLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9701B1196100BC28872E9D3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4469243F8496CFD87ED04E1 /* Pods-ZYNSpringLayout.debug.xcconfig */,
+				DBA4889D9FAEB3318AB7110D /* Pods-ZYNSpringLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4E3B05B1D30A45300D2D377 = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0661D30A45300D2D377 /* ZYNSpringLayout */,
+				F4E3B07A1D30A45300D2D377 /* ZYNSpringLayoutTests */,
+				F4E3B0851D30A45300D2D377 /* ZYNSpringLayoutUITests */,
+				F4E3B0651D30A45300D2D377 /* Products */,
+				9701B1196100BC28872E9D3B /* Pods */,
+				1420910B0F2F2A76CC0F5E99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E3B0651D30A45300D2D377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0641D30A45300D2D377 /* ZYNSpringLayout.app */,
+				F4E3B0771D30A45300D2D377 /* ZYNSpringLayoutTests.xctest */,
+				F4E3B0821D30A45300D2D377 /* ZYNSpringLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E3B0661D30A45300D2D377 /* ZYNSpringLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0941D30A46D00D2D377 /* ZYNSpringLayout */,
+				F4E3B06A1D30A45300D2D377 /* AppDelegate.h */,
+				F4E3B06B1D30A45300D2D377 /* AppDelegate.m */,
+				F435D8C71D30C6F800383017 /* ZYNCollectionController.h */,
+				F435D8C81D30C6F800383017 /* ZYNCollectionController.m */,
+				F435D8CA1D30C97C00383017 /* ZYNCollectionViewCell.h */,
+				F435D8CB1D30C97C00383017 /* ZYNCollectionViewCell.m */,
+				F435D8CC1D30C97C00383017 /* ZYNCollectionViewCell.xib */,
+				F4B39B091D3348AD00E0C9F8 /* ZYNModel.h */,
+				F4B39B0A1D3348AD00E0C9F8 /* ZYNModel.m */,
+				F4E3B06D1D30A45300D2D377 /* Assets.xcassets */,
+				F4E3B06F1D30A45300D2D377 /* LaunchScreen.storyboard */,
+				F4E3B0721D30A45300D2D377 /* Info.plist */,
+				F4E3B0671D30A45300D2D377 /* Supporting Files */,
+			);
+			path = ZYNSpringLayout;
+			sourceTree = "<group>";
+		};
+		F4E3B0671D30A45300D2D377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0681D30A45300D2D377 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4E3B07A1D30A45300D2D377 /* ZYNSpringLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B07B1D30A45300D2D377 /* ZYNSpringLayoutTests.m */,
+				F4E3B07D1D30A45300D2D377 /* Info.plist */,
+			);
+			path = ZYNSpringLayoutTests;
+			sourceTree = "<group>";
+		};
+		F4E3B0851D30A45300D2D377 /* ZYNSpringLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0861D30A45300D2D377 /* ZYNSpringLayoutUITests.m */,
+				F4E3B0881D30A45300D2D377 /* Info.plist */,
+			);
+			path = ZYNSpringLayoutUITests;
+			sourceTree = "<group>";
+		};
+		F4E3B0941D30A46D00D2D377 /* ZYNSpringLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F4E3B0951D30A4A000D2D377 /* ZYNSpringLayout.h */,
+				F4E3B0961D30A4A000D2D377 /* ZYNSpringLayout.m */,
+			);
+			path = ZYNSpringLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E3B0631D30A45300D2D377 /* ZYNSpringLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3B08B1D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayout" */;
+			buildPhases = (
+				6166B93790E6FDBF6D0FA543 /* [CP] Check Pods Manifest.lock */,
+				F4E3B0601D30A45300D2D377 /* Sources */,
+				F4E3B0611D30A45300D2D377 /* Frameworks */,
+				F4E3B0621D30A45300D2D377 /* Resources */,
+				D9FBCFE20DE3E7D29EDA7188 /* [CP] Embed Pods Frameworks */,
+				912565477E0EB446A2595EEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYNSpringLayout;
+			productName = ZYNSpringLayout;
+			productReference = F4E3B0641D30A45300D2D377 /* ZYNSpringLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E3B0761D30A45300D2D377 /* ZYNSpringLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3B08E1D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayoutTests" */;
+			buildPhases = (
+				F4E3B0731D30A45300D2D377 /* Sources */,
+				F4E3B0741D30A45300D2D377 /* Frameworks */,
+				F4E3B0751D30A45300D2D377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E3B0791D30A45300D2D377 /* PBXTargetDependency */,
+			);
+			name = ZYNSpringLayoutTests;
+			productName = ZYNSpringLayoutTests;
+			productReference = F4E3B0771D30A45300D2D377 /* ZYNSpringLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E3B0811D30A45300D2D377 /* ZYNSpringLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E3B0911D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayoutUITests" */;
+			buildPhases = (
+				F4E3B07E1D30A45300D2D377 /* Sources */,
+				F4E3B07F1D30A45300D2D377 /* Frameworks */,
+				F4E3B0801D30A45300D2D377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E3B0841D30A45300D2D377 /* PBXTargetDependency */,
+			);
+			name = ZYNSpringLayoutUITests;
+			productName = ZYNSpringLayoutUITests;
+			productReference = F4E3B0821D30A45300D2D377 /* ZYNSpringLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E3B05C1D30A45300D2D377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYN;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YCSJ;
+				TargetAttributes = {
+					F4E3B0631D30A45300D2D377 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4E3B0761D30A45300D2D377 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4E3B0631D30A45300D2D377;
+					};
+					F4E3B0811D30A45300D2D377 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4E3B0631D30A45300D2D377;
+					};
+				};
+			};
+			buildConfigurationList = F4E3B05F1D30A45300D2D377 /* Build configuration list for PBXProject "ZYNSpringLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E3B05B1D30A45300D2D377;
+			productRefGroup = F4E3B0651D30A45300D2D377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E3B0631D30A45300D2D377 /* ZYNSpringLayout */,
+				F4E3B0761D30A45300D2D377 /* ZYNSpringLayoutTests */,
+				F4E3B0811D30A45300D2D377 /* ZYNSpringLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E3B0621D30A45300D2D377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3B06E1D30A45300D2D377 /* Assets.xcassets in Resources */,
+				F435D8CE1D30C97C00383017 /* ZYNCollectionViewCell.xib in Resources */,
+				F4E3B0711D30A45300D2D377 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B0751D30A45300D2D377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B0801D30A45300D2D377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6166B93790E6FDBF6D0FA543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		912565477E0EB446A2595EEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYNSpringLayout/Pods-ZYNSpringLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9FBCFE20DE3E7D29EDA7188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYNSpringLayout/Pods-ZYNSpringLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E3B0601D30A45300D2D377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3B06C1D30A45300D2D377 /* AppDelegate.m in Sources */,
+				F435D8CD1D30C97C00383017 /* ZYNCollectionViewCell.m in Sources */,
+				F435D8C91D30C6F800383017 /* ZYNCollectionController.m in Sources */,
+				F4E3B0971D30A4A000D2D377 /* ZYNSpringLayout.m in Sources */,
+				F4E3B0691D30A45300D2D377 /* main.m in Sources */,
+				F4B39B0B1D3348AD00E0C9F8 /* ZYNModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B0731D30A45300D2D377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3B07C1D30A45300D2D377 /* ZYNSpringLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3B07E1D30A45300D2D377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3B0871D30A45300D2D377 /* ZYNSpringLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E3B0791D30A45300D2D377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E3B0631D30A45300D2D377 /* ZYNSpringLayout */;
+			targetProxy = F4E3B0781D30A45300D2D377 /* PBXContainerItemProxy */;
+		};
+		F4E3B0841D30A45300D2D377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E3B0631D30A45300D2D377 /* ZYNSpringLayout */;
+			targetProxy = F4E3B0831D30A45300D2D377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E3B06F1D30A45300D2D377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E3B0701D30A45300D2D377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E3B0891D30A45300D2D377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4E3B08A1D30A45300D2D377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E3B08C1D30A45300D2D377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4469243F8496CFD87ED04E1 /* Pods-ZYNSpringLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYNSpringLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4E3B08D1D30A45300D2D377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA4889D9FAEB3318AB7110D /* Pods-ZYNSpringLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYNSpringLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4E3B08F1D30A45300D2D377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYNSpringLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYNSpringLayout.app/ZYNSpringLayout";
+			};
+			name = Debug;
+		};
+		F4E3B0901D30A45300D2D377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYNSpringLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYNSpringLayout.app/ZYNSpringLayout";
+			};
+			name = Release;
+		};
+		F4E3B0921D30A45300D2D377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYNSpringLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYNSpringLayout;
+			};
+			name = Debug;
+		};
+		F4E3B0931D30A45300D2D377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYNSpringLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycsj.ZYNSpringLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYNSpringLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E3B05F1D30A45300D2D377 /* Build configuration list for PBXProject "ZYNSpringLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3B0891D30A45300D2D377 /* Debug */,
+				F4E3B08A1D30A45300D2D377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3B08B1D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3B08C1D30A45300D2D377 /* Debug */,
+				F4E3B08D1D30A45300D2D377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3B08E1D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3B08F1D30A45300D2D377 /* Debug */,
+				F4E3B0901D30A45300D2D377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E3B0911D30A45300D2D377 /* Build configuration list for PBXNativeTarget "ZYNSpringLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E3B0921D30A45300D2D377 /* Debug */,
+				F4E3B0931D30A45300D2D377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E3B05C1D30A45300D2D377 /* Project object */;
+}
