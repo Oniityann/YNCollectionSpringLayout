@@ -12,7 +12,7 @@
 static CGFloat const SpringFactor = 5;
 
 // 修改 item 间距
-static CGFloat const verticallyPadding = 5;
+static CGFloat const verticallySpacing = 5;
 
 @implementation ZYNSpringLayout
 
@@ -31,7 +31,7 @@ static CGFloat const verticallyPadding = 5;
     CGFloat cellHeight = 30;
     
     self.itemSize = CGSizeMake(cellWidth, cellHeight);
-    self.headerReferenceSize = CGSizeMake(cellWidth, verticallyPadding);
+    self.headerReferenceSize = CGSizeMake(cellWidth, verticallySpacing);
 }
 
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
